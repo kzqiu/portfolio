@@ -1,4 +1,4 @@
-import SuperContainer from "../components/SuperContainer";
+import SuperContainer from "../components/supercontainer";
 
 export default function Contact() {
     return (
