@@ -1,5 +1,9 @@
+import SuperContainer from "../components/SuperContainer";
+
 export default function Projects() {
     return (
-        <h1>Projects</h1>
+        <SuperContainer>
+
+        </SuperContainer>
     );
 }

@@ -1,9 +1,15 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import SuperContainer from '../components/SuperContainer';
 
 export default function Home() {
-  return (
-    <h1 className='text-3xl font-bold underline'>In development...</h1>
-  )
+    return (
+    <SuperContainer>
+        <div className="max-w-6xl mx-auto flex flex-row py-20">
+            <div className="flex flex-col text-6xl text-slate-600">
+                <h1>Page</h1>
+                <h1>Under</h1>
+                <h1>Construction</h1>
+            </div>
+        </div>
+    </SuperContainer>
+    );
 }

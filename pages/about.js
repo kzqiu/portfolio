@@ -1,5 +1,8 @@
+import SuperContainer from "../components/SuperContainer";
+
 export default function About() {
     return (
-        <h1>About</h1>
+        <SuperContainer>
+        </SuperContainer>
     );
 }
