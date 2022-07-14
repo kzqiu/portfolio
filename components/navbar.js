@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Navbar() {
+    const router = useRouter()
     return (
         <div className="max-w-6xl mx-auto px-4 py-10 md:py-20">
             <div className="flex justify-between items-center">
@@ -8,18 +10,19 @@ export default function Navbar() {
                     <a>
                         <div className="flex flex-col">
                             <h1 className="text-lg font-semibold text-slate-200 hover:text-gray-500">Kevin Qiu</h1>
+                            <h1 className="text-lg font-semibold text-gray-500">Dumbass</h1>
                         </div>
                     </a>
                 </Link>
                 <div className="space-x-12 hidden md:block">
                     <Link href="../about">
-                        <a className="text-slate-300 hover:text-gray-500 font-medium">About</a>
+                        <a className={`text-base text-slate-300 hover:text-gray-500 ${router.asPath === "/about" ? "font-bold" : "font-medium"}`}>About</a>
                     </Link>
                     <Link href="../projects">
-                        <a className="text-slate-300 hover:text-gray-500 font-medium">Projects</a>
+                        <a className={`text-base text-slate-300 hover:text-gray-500 ${router.asPath === "/projects" ? "font-bold" : "font-medium"}`}>Projects</a>
                     </Link> 
                     <Link href="../contact">
-                        <a className="text-slate-300 hover:text-gray-500 font-medium">Contact</a>
+                        <a className={`text-base text-slate-300 hover:text-gray-500 ${router.asPath === "/contact" ? "font-bold" : "font-medium"}`}>Contact</a>
                     </Link> 
                 </div>
                 <div className="space-x-8">
