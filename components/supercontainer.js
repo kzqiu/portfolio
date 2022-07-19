@@ -14,10 +14,10 @@ export default function SuperContainer({children}) {
                 <title>{meta.title}</title>
                 <link rel="shortcut icon" href="/images/favicon.ico"/>
             </Head>
-            <main className="w-full min-h-screen selection:bg-fuchsia-300 selection:text-fuchsia-900">
+            <main className="w-full min-h-screen selection:bg-fuchsia-300 selection:text-fuchsia-900 bg-gray-800">
                 <Navbar/>
                 <div>{children}</div>
-                <Footer/>
+                {/* <Footer/> */}
             </main>
         </div>  
     );

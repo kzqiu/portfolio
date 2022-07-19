@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+/* html {
   background-color: rgb(31 41 55);
-}
+} */
 
 /* html,
 body {
