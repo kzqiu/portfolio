@@ -9,7 +9,8 @@
   "dependencies": {
     "next": "^12.1.4",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "react-type-animation": "^2.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",

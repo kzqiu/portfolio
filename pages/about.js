@@ -5,7 +5,7 @@ export default function About() {
         <SuperContainer>
             <section className="bg-gray-800">
                 <div className="max-w-6xl mx-auto px-4 h-48">
-                    <h1 className="text-5xl md:text-9xl font-bold py-20 text-white text-center md:text-left">About me!</h1>
+                    <h1 className="text-5xl md:text-9xl font-bold text-white text-center md:text-left">About me!</h1>
                 </div>
                 <div className="bg-gray-900 -mt-10 min-h-screen">
                     <div className="text-container max-w-6xl mx-auto px-4 pt-32">
