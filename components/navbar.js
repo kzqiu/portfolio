@@ -24,6 +24,9 @@ export default function Navbar() {
                     <Link href="../contact">
                         <a className={`text-base text-slate-300 hover:text-gray-500 ${router.asPath === "/contact" ? "font-bold" : "font-medium"}`}>Contact</a>
                     </Link>  */}
+                    <Link href="../blog">
+                        <a className={`text-base text-slate-300 hover:text-gray-500 ${router.asPath === "/blog" ? "font-bold" : "font-medium"}`}>Blog</a>
+                    </Link>
                 </div>
                 <div className="space-x-6 flex flex-row items-center">
                     <a href="https://www.linkedin.com/in/kevinzqiu/">
@@ -44,6 +47,9 @@ export default function Navbar() {
                 <Link href="../contact">
                     <a className={`text-base text-slate-300 hover:text-gray-500 ${router.asPath === "/contact" ? "font-bold" : "font-medium"}`}>Contact</a>
                 </Link>  */}
+                <Link href="../blog">
+                        <a className={`text-base text-slate-300 hover:text-gray-500 ${router.asPath === "/blog" ? "font-bold" : "font-medium"}`}>Blog</a>
+                    </Link>
             </div>
         </div>
     );

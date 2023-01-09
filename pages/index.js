@@ -30,8 +30,6 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-gray-900 min-h-full">
-                </div>
             </section>
         </SuperContainer>
     );
