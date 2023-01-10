@@ -9,7 +9,7 @@ export default function Navbar() {
                 <Link href="../">
                     <a>
                         <div className="flex flex-col">
-                            <h1 className="text-lg font-semibold text-slate-200">Kevin Z. Qiu</h1>
+                            <h1 className="text-lg font-semibold text-slate-200 hover:text-gray-500">Kevin Z. Qiu</h1>
                             {/* <h1 className="text-lg font-semibold text-gray-500">Placeholder</h1> */}
                         </div>
                     </a>

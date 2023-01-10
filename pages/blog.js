@@ -21,7 +21,7 @@ export default function Blog({ allPostsData }) {
                         
                         {allPostsData.map(({ id, date, title }) => (
                             <div className="text-slate-300 md:text-left font-mono" key={id}>
-                                <p className="font-bold font-xl"><Link href={`/blog/${id}`}>{title}</Link></p>
+                                <p className="font-bold font-xl hover:text-gray-500"><Link href={`/blog/${id}`}>{title}</Link></p>
                                 {date}
                                 
                             </div>
