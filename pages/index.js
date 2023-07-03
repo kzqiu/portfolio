@@ -22,11 +22,7 @@ export default function Home() {
                         </div>
 
                         <div className="text-lg font-normal text-slate-300 md:text-left font-mono">
-                            My name is Kevin Qiu and I&apos;m an undergraduate at Columbia University studying computer engineering and applied math. My current areas of interest are reinforcement learning, data science, mathematical modeling, and software development, but I always love learning something new!
-                        </div>
-
-                        <div className="text-lg font-normal text-slate-300 md:text-left font-mono">
-                            This portfolio website is currently under construction, so check back soon for updates and keep in touch with me through my LinkedIn!
+                            Hey! I&apos;m Kevin, currently an undergraduate student at Columbia University studying computer science and operations research. My current areas of interest are data science, machine learning, robotics, and software development, but I always love learning something new!
                         </div>
                     </div>
                 </div>
