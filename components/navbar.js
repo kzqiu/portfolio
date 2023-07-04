@@ -24,6 +24,9 @@ export default function Navbar() {
                     <Link href="../contact">
                         <a className={`text-base text-slate-300 hover:text-gray-500 ${router.asPath === "/contact" ? "font-bold" : "font-medium"}`}>Contact</a>
                     </Link>  */}
+                    <Link href="../">
+                        <a className={`text-base text-slate-300 hover:text-gray-500 ${router.asPath === "/" ? "font-bold" : "font-medium"}`}>Home</a>
+                    </Link>
                     <Link href="../blog">
                         <a className={`text-base text-slate-300 hover:text-gray-500 ${router.asPath === "/blog" ? "font-bold" : "font-medium"}`}>Blog</a>
                     </Link>
