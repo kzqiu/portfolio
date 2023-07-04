@@ -3,7 +3,14 @@ import { getPostsData } from "../components/posts";
 import Link from "next/link";
 
 export async function getStaticProps() {
-    const allPostsData = getPostsData();
+    const allPostsData = JSON.parse(JSON.stringify(getPostsData())).map((post) => {
+        return {
+            "id": post.id,
+            "title": post.title,
+            "date": post.date.substring(0, 10),
+        }
+    });
+
     return {
         props: {
             allPostsData,

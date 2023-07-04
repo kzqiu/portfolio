@@ -29,7 +29,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-    const postData = getPostData(params.id);
+    const postData = JSON.parse(JSON.stringify(getPostData(params.id)));
     return {
         props: {
             postData,
