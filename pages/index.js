@@ -23,7 +23,7 @@ export default function Home() {
                         </div>
 
                         <div className="text-lg font-normal text-slate-300 md:text-left font-mono">
-                            Hey! I&apos;m Kevin, currently an undergraduate student at Columbia University studying computer science and operations research. My current areas of interest are data science, machine learning, robotics, and systems, but I really enjoy challenging myself with new topics!
+                            I&apos;m Kevin, currently an undergraduate student at Columbia University studying computer science and operations research. My current areas of interest are data science, machine learning, robotics, and high performance computing, but I always enjoy learning something new! 
                         </div>
 
                         <div className="text-lg font-normal text-slate-300 md:text-left font-mono">
